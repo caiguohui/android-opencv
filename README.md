@@ -11,3 +11,7 @@ Windows集成opencv参考：http://blog.csdn.net/sbsujjbcy/article/details/49520
 5. 下载OpenCV for Android, 下载地址: http://120.52.72.56/jaist.dl.sourceforge.net/c3pr90ntcsf0/project/opencvlibrary/opencv-android/3.1.0/OpenCV-3.1.0-android-sdk.zip
 
 ps: 在当前用户目录下创建Library/Android, 然后把Android SDK解压到创建的目录下,修改目录名称为sdk, 然后把Android NDK解压到sdk根目录下. 如果当前用户目录的路径有特殊字符、空格或者数字，请切换到其他目录下，保证目录路径没有特殊字符、空格或者数字.
+
+  如无法直接下载上面的连接, 可使用迅雷. 若还无法下载, 那只能翻墙了.
+  
+安装好Android Studio之后, 配置SDK路径. 目前用的SDK是6.0.
