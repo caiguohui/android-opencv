@@ -41,7 +41,7 @@ OpenCV_INSTALL_MODULES := on
 OpenCV_CAMERA_MODULES := off
 OPENCV_LIB_TYPE :=STATIC
 ifeq ("$(wildcard $(OPENCV_MK_PATH))","")
-include ..\..\..\..\native\jni\OpenCV.mk
+include ..\\..\\..\\..\native\jni\OpenCV.mk
 else
 include $(OPENCV_MK_PATH)
 endif
@@ -81,5 +81,5 @@ task ndkClean(type: Exec, description: 'Clean NDK Binaries') {
 }
 clean.dependsOn 'ndkClean'
 </code></pre>
-15. aaa
+15. 运行Build
 15. sdfsf
