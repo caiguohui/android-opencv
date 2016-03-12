@@ -14,5 +14,5 @@ ps: 在当前用户目录下创建Library/Android, 然后把Android SDK解压到
   如无法直接下载上面的连接, 可使用迅雷. 若还无法下载, 你懂得, 那只能翻墙了.</br>
   安装好Android Studio之后, 配置SDK路径. 目前用的SDK是6.0.</br>
 
-#准备好开发环境, 正式
+#准备好开发环境, 正式开始
 1. 打开Android Studio, 新建工程
