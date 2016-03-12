@@ -81,5 +81,21 @@ task ndkClean(type: Exec, description: 'Clean NDK Binaries') {
 }
 clean.dependsOn 'ndkClean'
 </code></pre>
-15. 运行Build
-15. sdfsf
+15. build项目, 如果能成功在src/main/libs下构建出so, 说明配置没问题
+16. 声明java层的native方法
+<pre><code>
+package com.jack.opencv.myapplication;
+
+/**
+ * Created by Jack on 16/3/12.
+ */
+public class OpenCVHelper {
+
+    static{
+        System.loadLibrary("OpenCV");
+    }
+
+    public static native int[] gray(int[] buf, int w, int h);
+}
+</code></pre>
+17. 编辑成c
