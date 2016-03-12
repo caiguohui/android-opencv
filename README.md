@@ -26,7 +26,7 @@ ps: 在当前用户目录下创建Library/Android, 然后把Android SDK解压到
 9. 回到AS, 打开local.properties, 配置ndk目录:<pre><code>ndk.dir=/Users/jack/Library/Android/sdk/ndk</code></pre>
 10. 在App项目下的src/main下创建jni目录(右键New时，选择Folder → JNI Folder创建)
 11. 在jni根目录下, 创建2个文件. Android.mk和Application.mk
-12. 打开Andriod.mk, 新增
+12. 打开Application.mk, 新增
 <pre><code>
 APP_STL := gnustl_static
 APP_CPPFLAGS := -frtti -fexceptions
