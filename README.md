@@ -85,17 +85,14 @@ clean.dependsOn 'ndkClean'
 16. 声明java层的native方法
 <pre><code>
 package com.jack.opencv.myapplication;
-
-/**
- * Created by Jack on 16/3/12.
- */
 public class OpenCVHelper {
-
     static{
         System.loadLibrary("OpenCV");
     }
-
     public static native int[] gray(int[] buf, int w, int h);
 }
 </code></pre>
-17. 编辑成c
+17. 使用javah命令生成头文件，内容如下
+<pre><code>
+</code></pre>
+18. 编写实现
